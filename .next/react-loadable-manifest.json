@@ -1,14 +1,14 @@
 {
-  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
-    "id": "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app",
+  "..\\node_modules\\.pnpm\\next@13.2.4_z72xxk7vwlamvgqemvc4ptm4du\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": "..\\node_modules\\.pnpm\\next@13.2.4_z72xxk7vwlamvgqemvc4ptm4du\\node_modules\\next\\dist\\client\\index.js -> ../pages/_app",
     "files": [
-      "static/chunks/node_modules_next_dist_pages__app_js.js"
+      "static/chunks/node_modules_pnpm_next_13_2_4_z72xxk7vwlamvgqemvc4ptm4du_node_modules_next_dist_pages__app_js.js"
     ]
   },
-  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
-    "id": "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
+  "..\\node_modules\\.pnpm\\next@13.2.4_z72xxk7vwlamvgqemvc4ptm4du\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": "..\\node_modules\\.pnpm\\next@13.2.4_z72xxk7vwlamvgqemvc4ptm4du\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error",
     "files": [
-      "static/chunks/node_modules_next_dist_pages__error_js.js"
+      "static/chunks/node_modules_pnpm_next_13_2_4_z72xxk7vwlamvgqemvc4ptm4du_node_modules_next_dist_pages__error_js.js"
     ]
   }
 }

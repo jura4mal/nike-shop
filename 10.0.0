@@ -1,0 +1,72 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 89, reused 61, downloaded 0, added 0
+ WARN  deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+Progress: resolved 344, reused 263, downloaded 0, added 0
+Progress: resolved 468, reused 441, downloaded 0, added 0
+Progress: resolved 749, reused 726, downloaded 0, added 0
+Progress: resolved 1106, reused 1087, downloaded 0, added 0
+ WARN  deprecated sane@4.1.0: some dependency vulnerabilities fixed, support for node < 10 dropped, and newer ECMAScript syntax/features added
+ WARN  deprecated chokidar@2.1.8: Chokidar 2 does not receive security updates since 2019. Upgrade to chokidar 3 with 15x fewer dependencies
+ WARN  deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+ WARN  deprecated trim@0.0.1: Use String.prototype.trim() instead
+ WARN  deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ WARN  deprecated querystring@0.2.0: The querystring API is considered Legacy. new code should use the URLSearchParams API instead.
+Progress: resolved 1571, reused 1554, downloaded 0, added 0
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ WARN  deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+ WARN  deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+ WARN  deprecated @npmcli/move-file@1.1.2: This functionality has been moved to @npmcli/fs
+ WARN  deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+Progress: resolved 1725, reused 1710, downloaded 0, added 0
+Packages: +32 -100
++++++++++++++++++++-------------------------------------------------------------
+Progress: resolved 1725, reused 1711, downloaded 0, added 12
+Progress: resolved 1725, reused 1711, downloaded 0, added 13
+Progress: resolved 1725, reused 1711, downloaded 0, added 30
+Progress: resolved 1725, reused 1711, downloaded 0, added 32, done
+
+dependencies:
++ @babel/core 7.21.4
++ @storybook/core-events 6.5.8 (7.0.2 is available)
++ ts-node 10.9.1
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ @storybook/addon-essentials 6.5.16
+│ ├── ✕ missing peer webpack@"*"
+│ └─┬ @storybook/addon-docs 6.5.16
+│   ├── ✕ unmet peer @storybook/mdx2-csf@^0.0.3: found 0.0.4
+│   ├─┬ babel-loader 8.3.0
+│   │ └── ✕ missing peer webpack@>=2
+│   └─┬ @mdx-js/react 1.6.22
+│     └── ✕ unmet peer react@"^16.13.1 || ^17.0.0": found 18.2.0
+├─┬ postcss-loader 7.2.4
+│ └── ✕ missing peer webpack@^5.0.0
+├─┬ @storybook/addon-styling 0.3.2
+│ ├── ✕ missing peer @storybook/addons@^6.5.8
+│ ├── ✕ missing peer @storybook/api@^6.5.8
+│ ├── ✕ missing peer @storybook/components@^6.5.8
+│ ├── ✕ missing peer @storybook/manager-api@^7.0.0-beta.56
+│ └── ✕ missing peer @storybook/theming@^6.5.8
+├─┬ @storybook/react 6.5.16
+│ ├── ✕ missing peer require-from-string@^2.0.2
+│ ├─┬ react-element-to-jsx-string 14.3.4
+│ │ ├── ✕ unmet peer react@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1": found 18.2.0
+│ │ └── ✕ unmet peer react-dom@"^0.14.8 || ^15.0.1 || ^16.0.0 || ^17.0.1": found 18.2.0
+│ └─┬ @storybook/core 6.5.16
+│   └─┬ @storybook/core-server 6.5.16
+│     └─┬ @storybook/csf-tools 6.5.16
+│       └── ✕ unmet peer @storybook/mdx2-csf@^0.0.3: found 0.0.4
+└─┬ @storybook/addon-actions 6.5.16
+  └─┬ react-inspector 5.1.1
+    └── ✕ unmet peer react@"^16.8.4 || ^17.0.0": found 18.2.0
+Peer dependencies that should be installed:
+  @storybook/addons@^6.5.8
+  @storybook/api@^6.5.8
+  @storybook/components@^6.5.8
+  @storybook/manager-api@^7.0.0-beta.56
+  @storybook/theming@^6.5.8
+  require-from-string@^2.0.2
+  webpack@">=5.0.0 <6.0.0"
+
+Done in 15.9s

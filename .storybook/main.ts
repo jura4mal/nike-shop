@@ -1,5 +1,6 @@
-import * as path from 'path';
-import { StorybookConfig } from '@storybook/core-common';
+import { StorybookConfig } from '@storybook/core-common'
+import * as path from 'path'
+
 
 const config: StorybookConfig = {
   staticDirs: ['./public'],
@@ -20,7 +21,7 @@ const config: StorybookConfig = {
   core: {
     builder: '@storybook/builder-webpack5'
   },
-  webpackFinal: (config) => {
+  webpackFinal: (config: { resolve: { alias: any } }) => {
     if (config.resolve) {
       config.resolve.alias = {
         ...config.resolve.alias,
