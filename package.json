@@ -8,7 +8,7 @@
     "start": "next start",
     "format": "prettier --write **/*.{ts,tsx,css,mdx}",
     "lint": "eslint . --ext ts --ext tsx",
-    "strapi-dev": "cd strapi && yarn develop",
+    "strapi-dev": "cd strapi && pnpm develop",
     "test": "jest",
     "typecheck": "tsc",
     "storybook": "start-storybook -p 6006",
@@ -16,8 +16,8 @@
   },
   "lint-staged": {
     "*.{ts,tsx}": [
-      "yarn format",
-      "yarn lint --fix"
+      "pnpm  format",
+      "pnpm lint --fix"
     ]
   },
   "dependencies": {
