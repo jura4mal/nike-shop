@@ -12,12 +12,13 @@ specifiers:
   react-router-dom: 5.3.4
   strapi: ^3.6.11
   styled-components: 5.3.3
+  typescript: ^5.0.4
 
 dependencies:
   '@codemirror/view': 6.10.0
-  '@strapi/plugin-i18n': 4.8.0_rbwguvy5ncvqjtfrvslpwngqk4
-  '@strapi/plugin-users-permissions': 4.8.0_rbwguvy5ncvqjtfrvslpwngqk4
-  '@strapi/strapi': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+  '@strapi/plugin-i18n': 4.8.0_4jxi5ldz4xda243nmicorz3zp4
+  '@strapi/plugin-users-permissions': 4.8.0_4jxi5ldz4xda243nmicorz3zp4
+  '@strapi/strapi': 4.8.0_x5or7njr5djma3dgmhgubcxlri
   better-sqlite3: 8.0.1
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -25,6 +26,7 @@ dependencies:
   react-router-dom: 5.3.4_react@17.0.2
   strapi: 3.6.11
   styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
+  typescript: 5.0.4
 
 packages:
 
@@ -1780,23 +1782,6 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@formatjs/intl/2.6.5:
-    resolution: {integrity: sha512-kNH221hsdbTAMdsF6JAxSFV4N/9p5azXZvCLQBxl10Q4D2caPODLtne98gRhinIJ8Hv3djBabPdJG32OQaHuMA==}
-    peerDependencies:
-      typescript: ^4.7
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@formatjs/ecma402-abstract': 1.14.3
-      '@formatjs/fast-memoize': 1.2.8
-      '@formatjs/icu-messageformat-parser': 2.2.0
-      '@formatjs/intl-displaynames': 6.2.4
-      '@formatjs/intl-listformat': 7.1.7
-      intl-messageformat: 10.3.0
-      tslib: 2.5.0
-    dev: false
-
   /@formatjs/intl/2.6.5_typescript@4.6.2:
     resolution: {integrity: sha512-kNH221hsdbTAMdsF6JAxSFV4N/9p5azXZvCLQBxl10Q4D2caPODLtne98gRhinIJ8Hv3djBabPdJG32OQaHuMA==}
     peerDependencies:
@@ -1813,6 +1798,24 @@ packages:
       intl-messageformat: 10.3.0
       tslib: 2.5.0
       typescript: 4.6.2
+    dev: false
+
+  /@formatjs/intl/2.6.5_typescript@5.0.4:
+    resolution: {integrity: sha512-kNH221hsdbTAMdsF6JAxSFV4N/9p5azXZvCLQBxl10Q4D2caPODLtne98gRhinIJ8Hv3djBabPdJG32OQaHuMA==}
+    peerDependencies:
+      typescript: ^4.7
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@formatjs/ecma402-abstract': 1.14.3
+      '@formatjs/fast-memoize': 1.2.8
+      '@formatjs/icu-messageformat-parser': 2.2.0
+      '@formatjs/intl-displaynames': 6.2.4
+      '@formatjs/intl-listformat': 7.1.7
+      intl-messageformat: 10.3.0
+      tslib: 2.5.0
+      typescript: 5.0.4
     dev: false
 
   /@internationalized/number/3.2.0:
@@ -2187,7 +2190,7 @@ packages:
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
       '@strapi/permissions': 4.8.0
       '@strapi/provider-audit-logs-local': 4.8.0
-      '@strapi/strapi': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/strapi': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       '@strapi/typescript-utils': 4.8.0
       '@strapi/utils': 4.8.0
       axios: 1.2.2_debug@4.3.4
@@ -2328,7 +2331,7 @@ packages:
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
       '@strapi/permissions': 4.8.0
       '@strapi/provider-audit-logs-local': 4.8.0
-      '@strapi/strapi': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/strapi': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       '@strapi/typescript-utils': 4.8.0
       '@strapi/utils': 4.8.0
       axios: 1.2.2_debug@4.3.4
@@ -2453,7 +2456,7 @@ packages:
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     dependencies:
       '@strapi/logger': 4.8.0
-      '@strapi/strapi': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/strapi': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       chalk: 4.1.2
       fs-extra: 10.0.0
       lodash: 4.17.21
@@ -2469,12 +2472,12 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@strapi/data-transfer/4.8.0_fb3bhu24vpg6ztcgcy3kainuja:
+  /@strapi/data-transfer/4.8.0_x5or7njr5djma3dgmhgubcxlri:
     resolution: {integrity: sha512-Jr2LGQLe/7qEV4O3rTethVL7YoGs5HRjgvW3XYudmGzMkb26prGaBc/ncgw8kIK9KaQMdssRK43NbbAV1yXzMg==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     dependencies:
       '@strapi/logger': 4.8.0
-      '@strapi/strapi': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/strapi': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       chalk: 4.1.2
       fs-extra: 10.0.0
       lodash: 4.17.21
@@ -2651,39 +2654,6 @@ packages:
       - supports-color
     dev: false
 
-  /@strapi/helper-plugin/4.8.0_6elh77xzxfr4mmvc2smpw62cye:
-    resolution: {integrity: sha512-2qth/5l59dL+E1fFYtyw0ARevDZMD8jxUnt2TkAxy7CDtekHfewhPTBZwy7RtBxtqn9rpN6fkrPnTQJxBmlvUg==}
-    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
-    peerDependencies:
-      '@strapi/design-system': 1.6.5
-      '@strapi/icons': 1.6.5
-      react: ^17.0.2
-      react-dom: ^17.0.2
-      react-router-dom: 5.3.4
-      styled-components: 5.3.3
-    dependencies:
-      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
-      axios: 1.2.2_debug@4.3.4
-      date-fns: 2.29.3
-      formik: 2.2.9_react@17.0.2
-      immer: 9.0.19
-      lodash: 4.17.21
-      prop-types: 15.8.1
-      qs: 6.11.0
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-helmet: 6.1.0_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
-      react-router-dom: 5.3.4_react@17.0.2
-      react-select: 5.7.0_sfoxds7t5ydpegc3knd667wn6m
-      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
-    transitivePeerDependencies:
-      - '@types/react'
-      - debug
-      - typescript
-    dev: false
-
   /@strapi/helper-plugin/4.8.0_aox2otzaidwk43cdpbg5ygdqay:
     resolution: {integrity: sha512-2qth/5l59dL+E1fFYtyw0ARevDZMD8jxUnt2TkAxy7CDtekHfewhPTBZwy7RtBxtqn9rpN6fkrPnTQJxBmlvUg==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
@@ -2717,7 +2687,7 @@ packages:
       - typescript
     dev: false
 
-  /@strapi/helper-plugin/4.8.0_rpjcl6ud4t7fw4emqpafmegwqm:
+  /@strapi/helper-plugin/4.8.0_fvvdbn25qrd4y2tv4stkywv5ma:
     resolution: {integrity: sha512-2qth/5l59dL+E1fFYtyw0ARevDZMD8jxUnt2TkAxy7CDtekHfewhPTBZwy7RtBxtqn9rpN6fkrPnTQJxBmlvUg==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -2740,7 +2710,40 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-helmet: 6.1.0_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
+      react-router-dom: 5.3.4_react@17.0.2
+      react-select: 5.7.0_sfoxds7t5ydpegc3knd667wn6m
+      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
+    transitivePeerDependencies:
+      - '@types/react'
+      - debug
+      - typescript
+    dev: false
+
+  /@strapi/helper-plugin/4.8.0_y4dmxyhfdtfpagvnq6cci2sv3e:
+    resolution: {integrity: sha512-2qth/5l59dL+E1fFYtyw0ARevDZMD8jxUnt2TkAxy7CDtekHfewhPTBZwy7RtBxtqn9rpN6fkrPnTQJxBmlvUg==}
+    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
+    peerDependencies:
+      '@strapi/design-system': 1.6.5
+      '@strapi/icons': 1.6.5
+      react: ^17.0.2
+      react-dom: ^17.0.2
+      react-router-dom: 5.3.4
+      styled-components: 5.3.3
+    dependencies:
+      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
+      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
+      axios: 1.2.2_debug@4.3.4
+      date-fns: 2.29.3
+      formik: 2.2.9_react@17.0.2
+      immer: 9.0.19
+      lodash: 4.17.21
+      prop-types: 15.8.1
+      qs: 6.11.0
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-helmet: 6.1.0_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
       react-router-dom: 5.3.4_react@17.0.2
       react-select: 5.7.0_sfoxds7t5ydpegc3knd667wn6m
       styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
@@ -2787,7 +2790,7 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@strapi/plugin-content-type-builder/4.8.0_ianxjmimgo5pybmxk26zpkyd6a:
+  /@strapi/plugin-content-type-builder/4.8.0_cyvvyd6zwbhfwfmkuu65fewmre:
     resolution: {integrity: sha512-KeuM8oCFF5IQp4YD3i/OsP6XiUKG0TcdyW48n+9hPM6NhdBOx9VdJHgy7OY2UKyo3S58Tn00GTMpOmEFRR+c7w==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -2799,9 +2802,9 @@ packages:
       '@sindresorhus/slugify': 1.1.0
       '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
       '@strapi/generators': 4.8.0
-      '@strapi/helper-plugin': 4.8.0_6elh77xzxfr4mmvc2smpw62cye
+      '@strapi/helper-plugin': 4.8.0_y4dmxyhfdtfpagvnq6cci2sv3e
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
-      '@strapi/strapi': 4.8.0_adewrefxpdhqjr6gmabjo5tbtu
+      '@strapi/strapi': 4.8.0_te3ugiyywmegnujyz6o5fh5sve
       '@strapi/utils': 4.8.0
       fs-extra: 10.0.0
       immer: 9.0.19
@@ -2813,7 +2816,7 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-helmet: 6.1.0_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
       react-redux: 8.0.5_zgqx625sccpdtyvb56abipzqvi
       react-router-dom: 5.3.4_react@17.0.2
       redux: 4.2.1
@@ -2909,6 +2912,32 @@ packages:
       - typescript
     dev: false
 
+  /@strapi/plugin-email/4.8.0_4jxi5ldz4xda243nmicorz3zp4:
+    resolution: {integrity: sha512-EcTdhPU3WofzPzf6xAj9HzTcZ05uvgaPgK9rG9B64OMGBIG+AP3bYT169q7fqkfM+mytwKR3bbb/mq0/FmLBlA==}
+    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
+    peerDependencies:
+      react: ^17.0.2
+      react-dom: ^17.0.2
+      react-router-dom: 5.3.4
+      styled-components: 5.3.3
+    dependencies:
+      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
+      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
+      '@strapi/provider-email-sendmail': 4.8.0
+      '@strapi/utils': 4.8.0
+      lodash: 4.17.21
+      prop-types: 15.8.1
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
+      react-router-dom: 5.3.4_react@17.0.2
+      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
+      yup: 0.32.11
+    transitivePeerDependencies:
+      - '@codemirror/view'
+      - typescript
+    dev: false
+
   /@strapi/plugin-email/4.8.0_oodeuf3z6oij2v63jcfpy3piqu:
     resolution: {integrity: sha512-EcTdhPU3WofzPzf6xAj9HzTcZ05uvgaPgK9rG9B64OMGBIG+AP3bYT169q7fqkfM+mytwKR3bbb/mq0/FmLBlA==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
@@ -2935,33 +2964,7 @@ packages:
       - typescript
     dev: false
 
-  /@strapi/plugin-email/4.8.0_rbwguvy5ncvqjtfrvslpwngqk4:
-    resolution: {integrity: sha512-EcTdhPU3WofzPzf6xAj9HzTcZ05uvgaPgK9rG9B64OMGBIG+AP3bYT169q7fqkfM+mytwKR3bbb/mq0/FmLBlA==}
-    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
-    peerDependencies:
-      react: ^17.0.2
-      react-dom: ^17.0.2
-      react-router-dom: 5.3.4
-      styled-components: 5.3.3
-    dependencies:
-      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
-      '@strapi/provider-email-sendmail': 4.8.0
-      '@strapi/utils': 4.8.0
-      lodash: 4.17.21
-      prop-types: 15.8.1
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
-      react-router-dom: 5.3.4_react@17.0.2
-      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
-      yup: 0.32.11
-    transitivePeerDependencies:
-      - '@codemirror/view'
-      - typescript
-    dev: false
-
-  /@strapi/plugin-i18n/4.8.0_rbwguvy5ncvqjtfrvslpwngqk4:
+  /@strapi/plugin-i18n/4.8.0_4jxi5ldz4xda243nmicorz3zp4:
     resolution: {integrity: sha512-AxMTaN0K1v6yi/J01ZI9CBZr/k+hTJpoVUFU5KLarLYB1BceoVoelxrS6mLnef1fVNK74D6393k4j90scNtxCQ==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -2971,7 +2974,7 @@ packages:
       styled-components: 5.3.3
     dependencies:
       '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/helper-plugin': 4.8.0_rpjcl6ud4t7fw4emqpafmegwqm
+      '@strapi/helper-plugin': 4.8.0_fvvdbn25qrd4y2tv4stkywv5ma
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
       '@strapi/utils': 4.8.0
       formik: 2.2.9_react@17.0.2
@@ -2981,7 +2984,7 @@ packages:
       qs: 6.11.0
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
       react-query: 3.24.3_sfoxds7t5ydpegc3knd667wn6m
       react-redux: 8.0.5_zgqx625sccpdtyvb56abipzqvi
       react-router-dom: 5.3.4_react@17.0.2
@@ -2994,59 +2997,6 @@ packages:
       - '@types/react-dom'
       - debug
       - react-native
-      - typescript
-    dev: false
-
-  /@strapi/plugin-upload/4.8.0_bhvvtto3cztohdmhuoxcoqzhli:
-    resolution: {integrity: sha512-3T3GA/kzCbKGoc9/7fgRrIYkwsBdPd2hzWzK4GzqI5Ir5x+D675idmVcSG6z9wz+HOLTRUfaDX6dOaqT0ZY6NQ==}
-    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
-    peerDependencies:
-      react: ^17.0.2
-      react-dom: ^17.0.2
-      react-router-dom: 5.3.4
-      styled-components: 5.3.3
-    dependencies:
-      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/helper-plugin': 4.8.0_6elh77xzxfr4mmvc2smpw62cye
-      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
-      '@strapi/provider-upload-local': 4.8.0
-      '@strapi/utils': 4.8.0
-      axios: 1.2.2_debug@4.3.4
-      byte-size: 7.0.1
-      cropperjs: 1.5.12
-      date-fns: 2.29.3
-      formik: 2.2.9_react@17.0.2
-      fs-extra: 10.0.0
-      immer: 9.0.19
-      koa-range: 0.3.0
-      koa-static: 5.0.0
-      lodash: 4.17.21
-      mime-types: 2.1.35
-      prop-types: 15.8.1
-      qs: 6.11.0
-      react: 17.0.2
-      react-copy-to-clipboard: 5.1.0_react@17.0.2
-      react-dnd: 15.1.2_react@17.0.2
-      react-dom: 17.0.2_react@17.0.2
-      react-helmet: 6.1.0_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
-      react-query: 3.24.3_sfoxds7t5ydpegc3knd667wn6m
-      react-redux: 8.0.5_zgqx625sccpdtyvb56abipzqvi
-      react-router-dom: 5.3.4_react@17.0.2
-      react-select: 5.7.0_sfoxds7t5ydpegc3knd667wn6m
-      sharp: 0.31.1
-      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
-      yup: 0.32.11
-    transitivePeerDependencies:
-      - '@codemirror/view'
-      - '@types/hoist-non-react-statics'
-      - '@types/node'
-      - '@types/react'
-      - '@types/react-dom'
-      - debug
-      - react-native
-      - redux
-      - supports-color
       - typescript
     dev: false
 
@@ -3103,7 +3053,7 @@ packages:
       - typescript
     dev: false
 
-  /@strapi/plugin-upload/4.8.0_xkjddwwlf4bnleim7sjftu2qbq:
+  /@strapi/plugin-upload/4.8.0_ejggsnrim3ranfo3z33nxdgkeq:
     resolution: {integrity: sha512-3T3GA/kzCbKGoc9/7fgRrIYkwsBdPd2hzWzK4GzqI5Ir5x+D675idmVcSG6z9wz+HOLTRUfaDX6dOaqT0ZY6NQ==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -3113,7 +3063,7 @@ packages:
       styled-components: 5.3.3
     dependencies:
       '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/helper-plugin': 4.8.0_6elh77xzxfr4mmvc2smpw62cye
+      '@strapi/helper-plugin': 4.8.0_y4dmxyhfdtfpagvnq6cci2sv3e
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
       '@strapi/provider-upload-local': 4.8.0
       '@strapi/utils': 4.8.0
@@ -3135,7 +3085,7 @@ packages:
       react-dnd: 15.1.2_react@17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-helmet: 6.1.0_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
       react-query: 3.24.3_sfoxds7t5ydpegc3knd667wn6m
       react-redux: 8.0.5_sfoxds7t5ydpegc3knd667wn6m
       react-router-dom: 5.3.4_react@17.0.2
@@ -3156,7 +3106,60 @@ packages:
       - typescript
     dev: false
 
-  /@strapi/plugin-users-permissions/4.8.0_rbwguvy5ncvqjtfrvslpwngqk4:
+  /@strapi/plugin-upload/4.8.0_y5y6p2z6ajd2ivnooofflacq64:
+    resolution: {integrity: sha512-3T3GA/kzCbKGoc9/7fgRrIYkwsBdPd2hzWzK4GzqI5Ir5x+D675idmVcSG6z9wz+HOLTRUfaDX6dOaqT0ZY6NQ==}
+    engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
+    peerDependencies:
+      react: ^17.0.2
+      react-dom: ^17.0.2
+      react-router-dom: 5.3.4
+      styled-components: 5.3.3
+    dependencies:
+      '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
+      '@strapi/helper-plugin': 4.8.0_y4dmxyhfdtfpagvnq6cci2sv3e
+      '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
+      '@strapi/provider-upload-local': 4.8.0
+      '@strapi/utils': 4.8.0
+      axios: 1.2.2_debug@4.3.4
+      byte-size: 7.0.1
+      cropperjs: 1.5.12
+      date-fns: 2.29.3
+      formik: 2.2.9_react@17.0.2
+      fs-extra: 10.0.0
+      immer: 9.0.19
+      koa-range: 0.3.0
+      koa-static: 5.0.0
+      lodash: 4.17.21
+      mime-types: 2.1.35
+      prop-types: 15.8.1
+      qs: 6.11.0
+      react: 17.0.2
+      react-copy-to-clipboard: 5.1.0_react@17.0.2
+      react-dnd: 15.1.2_react@17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-helmet: 6.1.0_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
+      react-query: 3.24.3_sfoxds7t5ydpegc3knd667wn6m
+      react-redux: 8.0.5_zgqx625sccpdtyvb56abipzqvi
+      react-router-dom: 5.3.4_react@17.0.2
+      react-select: 5.7.0_sfoxds7t5ydpegc3knd667wn6m
+      sharp: 0.31.1
+      styled-components: 5.3.3_v5ja746gkdtknuc6tj46sve3be
+      yup: 0.32.11
+    transitivePeerDependencies:
+      - '@codemirror/view'
+      - '@types/hoist-non-react-statics'
+      - '@types/node'
+      - '@types/react'
+      - '@types/react-dom'
+      - debug
+      - react-native
+      - redux
+      - supports-color
+      - typescript
+    dev: false
+
+  /@strapi/plugin-users-permissions/4.8.0_4jxi5ldz4xda243nmicorz3zp4:
     resolution: {integrity: sha512-PD+JHzDZ6qL/0aGHzwr6fsK++J3Z8R8ZrNgn2ufAbVJf62aeH7pejLtoaL3ijAIBpgJlGIHl8hmN0yu2TMzEoQ==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     peerDependencies:
@@ -3166,7 +3169,7 @@ packages:
       styled-components: 5.3.3
     dependencies:
       '@strapi/design-system': 1.6.5_crjze4zdvcizqikr3w35d3dup4
-      '@strapi/helper-plugin': 4.8.0_rpjcl6ud4t7fw4emqpafmegwqm
+      '@strapi/helper-plugin': 4.8.0_fvvdbn25qrd4y2tv4stkywv5ma
       '@strapi/icons': 1.6.5_sfoxds7t5ydpegc3knd667wn6m
       '@strapi/utils': 4.8.0
       bcryptjs: 2.4.3
@@ -3183,7 +3186,7 @@ packages:
       purest: 4.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
-      react-intl: 6.2.8_react@17.0.2
+      react-intl: 6.2.8_bl4lhsqsscyapscktgoycrvsbu
       react-query: 3.24.3_sfoxds7t5ydpegc3knd667wn6m
       react-redux: 8.0.5_sfoxds7t5ydpegc3knd667wn6m
       react-router-dom: 5.3.4_react@17.0.2
@@ -3225,7 +3228,7 @@ packages:
       fs-extra: 10.0.0
     dev: false
 
-  /@strapi/strapi/4.8.0_adewrefxpdhqjr6gmabjo5tbtu:
+  /@strapi/strapi/4.8.0_te3ugiyywmegnujyz6o5fh5sve:
     resolution: {integrity: sha512-YSmyqhqe+fnAqbeFR4iKWOuCHQmGKvQG54lzXIIwb4PRAfKoDS8Kli213/Nzg4gF0Zr08HqPlTLv1xDMlMQJaA==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     hasBin: true
@@ -3241,9 +3244,9 @@ packages:
       '@strapi/logger': 4.8.0
       '@strapi/permissions': 4.8.0
       '@strapi/plugin-content-manager': 4.8.0
-      '@strapi/plugin-content-type-builder': 4.8.0_ianxjmimgo5pybmxk26zpkyd6a
-      '@strapi/plugin-email': 4.8.0_rbwguvy5ncvqjtfrvslpwngqk4
-      '@strapi/plugin-upload': 4.8.0_bhvvtto3cztohdmhuoxcoqzhli
+      '@strapi/plugin-content-type-builder': 4.8.0_cyvvyd6zwbhfwfmkuu65fewmre
+      '@strapi/plugin-email': 4.8.0_4jxi5ldz4xda243nmicorz3zp4
+      '@strapi/plugin-upload': 4.8.0_y5y6p2z6ajd2ivnooofflacq64
       '@strapi/typescript-utils': 4.8.0
       '@strapi/utils': 4.8.0
       bcryptjs: 2.4.3
@@ -3325,7 +3328,7 @@ packages:
       - webpack-plugin-serve
     dev: false
 
-  /@strapi/strapi/4.8.0_fb3bhu24vpg6ztcgcy3kainuja:
+  /@strapi/strapi/4.8.0_x5or7njr5djma3dgmhgubcxlri:
     resolution: {integrity: sha512-YSmyqhqe+fnAqbeFR4iKWOuCHQmGKvQG54lzXIIwb4PRAfKoDS8Kli213/Nzg4gF0Zr08HqPlTLv1xDMlMQJaA==}
     engines: {node: '>=14.19.1 <=18.x.x', npm: '>=6.0.0'}
     hasBin: true
@@ -3334,16 +3337,16 @@ packages:
       '@koa/cors': 3.4.3
       '@koa/router': 10.1.1
       '@strapi/admin': 4.8.0_mix4teo7ho24qmfujtdv3ubada
-      '@strapi/data-transfer': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/data-transfer': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       '@strapi/database': 4.8.0_better-sqlite3@8.0.1
       '@strapi/generate-new': 4.8.0
       '@strapi/generators': 4.8.0
       '@strapi/logger': 4.8.0
       '@strapi/permissions': 4.8.0
       '@strapi/plugin-content-manager': 4.8.0
-      '@strapi/plugin-content-type-builder': 4.8.0_ianxjmimgo5pybmxk26zpkyd6a
-      '@strapi/plugin-email': 4.8.0_rbwguvy5ncvqjtfrvslpwngqk4
-      '@strapi/plugin-upload': 4.8.0_xkjddwwlf4bnleim7sjftu2qbq
+      '@strapi/plugin-content-type-builder': 4.8.0_cyvvyd6zwbhfwfmkuu65fewmre
+      '@strapi/plugin-email': 4.8.0_4jxi5ldz4xda243nmicorz3zp4
+      '@strapi/plugin-upload': 4.8.0_ejggsnrim3ranfo3z33nxdgkeq
       '@strapi/typescript-utils': 4.8.0
       '@strapi/utils': 4.8.0
       bcryptjs: 2.4.3
@@ -3434,7 +3437,7 @@ packages:
       '@koa/cors': 3.4.3
       '@koa/router': 10.1.1
       '@strapi/admin': 4.8.0_mix4teo7ho24qmfujtdv3ubada
-      '@strapi/data-transfer': 4.8.0_fb3bhu24vpg6ztcgcy3kainuja
+      '@strapi/data-transfer': 4.8.0_x5or7njr5djma3dgmhgubcxlri
       '@strapi/database': 4.8.0_better-sqlite3@8.0.1
       '@strapi/generate-new': 4.8.0
       '@strapi/generators': 4.8.0
@@ -9289,6 +9292,29 @@ packages:
       react-side-effect: 2.1.2_react@17.0.2
     dev: false
 
+  /react-intl/6.2.8_bl4lhsqsscyapscktgoycrvsbu:
+    resolution: {integrity: sha512-Njzmbmk58rBx6i0bGQbBLYj+KbR9IXbFfbK2u0AFayjDx+VJW30MdJV6aNL9EiPaXfcOcAYm31R777e/UHWeEw==}
+    peerDependencies:
+      react: ^16.6.0 || 17 || 18
+      typescript: ^4.7
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+    dependencies:
+      '@formatjs/ecma402-abstract': 1.14.3
+      '@formatjs/icu-messageformat-parser': 2.2.0
+      '@formatjs/intl': 2.6.5_typescript@5.0.4
+      '@formatjs/intl-displaynames': 6.2.4
+      '@formatjs/intl-listformat': 7.1.7
+      '@types/hoist-non-react-statics': 3.3.1
+      '@types/react': 18.2.0
+      hoist-non-react-statics: 3.3.2
+      intl-messageformat: 10.3.0
+      react: 17.0.2
+      tslib: 2.5.0
+      typescript: 5.0.4
+    dev: false
+
   /react-intl/6.2.8_j4njqz2l44a4expcmhszoo26vm:
     resolution: {integrity: sha512-Njzmbmk58rBx6i0bGQbBLYj+KbR9IXbFfbK2u0AFayjDx+VJW30MdJV6aNL9EiPaXfcOcAYm31R777e/UHWeEw==}
     peerDependencies:
@@ -9310,28 +9336,6 @@ packages:
       react: 17.0.2
       tslib: 2.5.0
       typescript: 4.6.2
-    dev: false
-
-  /react-intl/6.2.8_react@17.0.2:
-    resolution: {integrity: sha512-Njzmbmk58rBx6i0bGQbBLYj+KbR9IXbFfbK2u0AFayjDx+VJW30MdJV6aNL9EiPaXfcOcAYm31R777e/UHWeEw==}
-    peerDependencies:
-      react: ^16.6.0 || 17 || 18
-      typescript: ^4.7
-    peerDependenciesMeta:
-      typescript:
-        optional: true
-    dependencies:
-      '@formatjs/ecma402-abstract': 1.14.3
-      '@formatjs/icu-messageformat-parser': 2.2.0
-      '@formatjs/intl': 2.6.5
-      '@formatjs/intl-displaynames': 6.2.4
-      '@formatjs/intl-listformat': 7.1.7
-      '@types/hoist-non-react-statics': 3.3.1
-      '@types/react': 18.2.0
-      hoist-non-react-statics: 3.3.2
-      intl-messageformat: 10.3.0
-      react: 17.0.2
-      tslib: 2.5.0
     dev: false
 
   /react-is/16.13.1:
@@ -10985,6 +10989,12 @@ packages:
   /typescript/4.6.2:
     resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /typescript/5.0.4:
+    resolution: {integrity: sha512-cW9T5W9xY37cc+jfEnaUvX91foxtHkza3Nw3wkoF4sSlKn0MONdkdEndig/qPBWXNkmplh3NzayQzCiHM4/hqw==}
+    engines: {node: '>=12.20'}
     hasBin: true
     dev: false
 

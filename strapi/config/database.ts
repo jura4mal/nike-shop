@@ -1,4 +1,9 @@
-import path from 'path';
+/* eslint-disable sort-keys */
+/* eslint-disable @typescript-eslint/no-unsafe-argument */
+/* eslint-disable @typescript-eslint/no-unsafe-member-access */
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
+/* eslint-disable @typescript-eslint/no-unsafe-call */
+import * as path from 'path'
 
 export default ({ env }) => {
   const client = env('DATABASE_CLIENT', 'sqlite');

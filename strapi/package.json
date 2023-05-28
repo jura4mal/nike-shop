@@ -20,7 +20,8 @@
     "react-is": ">= 16.8.0",
     "react-router-dom": "5.3.4",
     "strapi": "^3.6.11",
-    "styled-components": "5.3.3"
+    "styled-components": "5.3.3",
+    "typescript": "^5.0.4"
   },
   "author": {
     "name": "A Strapi developer"

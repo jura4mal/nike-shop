@@ -1,5 +1,6 @@
-import type { AxiosInstance } from 'axios';
-import axios from 'axios';
+/* eslint-disable @typescript-eslint/restrict-template-expressions */
+import type { AxiosInstance } from 'axios'
+import axios from 'axios'
 
 interface ApiConstructorParams {
   baseUrl: string;

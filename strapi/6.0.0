@@ -1,0 +1,68 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+ WARN  deprecated strapi@3.6.11: Strapi V3 is no longer maintained
+Progress: resolved 16, reused 13, downloaded 0, added 0
+ WARN  deprecated boom@7.3.0: This module has moved and is now available at @hapi/boom. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+Progress: resolved 152, reused 86, downloaded 0, added 0
+ WARN  deprecated strapi-database@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-controller@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-model@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-plugin@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-new@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-api@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-policy@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-generate-service@3.6.11: Strapi V3 is no longer maintained
+ WARN  deprecated strapi-utils@3.6.11: Strapi V3 is no longer maintained
+Progress: resolved 317, reused 300, downloaded 0, added 0
+ WARN  deprecated formidable@1.2.6: Please upgrade to latest, formidable@v2 or formidable@v3! Check these notes: https://bit.ly/2ZEqIau
+ WARN  deprecated hoek@6.1.3: This module has moved and is now available at @hapi/hoek. Please update your dependencies as this version is no longer maintained an may contain bugs and security issues.
+ WARN  deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+Progress: resolved 472, reused 466, downloaded 0, added 0
+Progress: resolved 862, reused 832, downloaded 0, added 0
+ WARN  deprecated mailcomposer@3.12.0: This project is unmaintained
+ WARN  deprecated buildmail@3.10.0: This project is unmaintained
+Progress: resolved 1287, reused 1265, downloaded 0, added 0
+ WARN  deprecated source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+ WARN  deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+ WARN  deprecated source-map-url@0.4.1: See https://github.com/lydell/source-map-url#deprecated
+ WARN  deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+Packages: +25 -31
++++++++++++++++++++++++++-------------------------------
+Progress: resolved 1345, reused 1323, downloaded 0, added 0
+Progress: resolved 1345, reused 1323, downloaded 0, added 8
+Progress: resolved 1345, reused 1323, downloaded 0, added 9
+Progress: resolved 1345, reused 1323, downloaded 0, added 17
+Progress: resolved 1345, reused 1323, downloaded 0, added 24
+Progress: resolved 1345, reused 1323, downloaded 0, added 25, done
+.../node_modules/@strapi/strapi postinstall$ node lib/utils/success.js
+.../node_modules/@strapi/strapi postinstall: Done
+.../node_modules/@strapi/strapi postinstall$ node lib/utils/success.js
+.../node_modules/@strapi/strapi postinstall: Done
+.../node_modules/@strapi/strapi postinstall$ node lib/utils/success.js
+.../node_modules/@strapi/strapi postinstall: Done
+
+dependencies:
++ @codemirror/view 6.10.0
++ react 17.0.2 (18.2.0 is available)
++ react-dom 17.0.2 (18.2.0 is available)
++ react-router-dom 5.3.4 (6.10.0 is available)
++ styled-components 5.3.3 (5.3.8 is available)
+
+ WARN  Issues with peer dependencies found
+.
+├─┬ styled-components 5.3.3
+│ └── ✕ missing peer react-is@">= 16.8.0"
+└─┬ @strapi/strapi 4.8.0
+  └─┬ @strapi/admin 4.8.0
+    └─┬ @strapi/data-transfer 4.8.0
+      └─┬ @strapi/strapi 4.8.0
+        └─┬ @strapi/plugin-content-type-builder 4.8.0
+          └─┬ @strapi/helper-plugin 4.8.0
+            └─┬ react-intl 6.2.8
+              ├── ✕ unmet peer typescript@^4.7: found 4.6.2
+              └─┬ @formatjs/intl 2.6.5
+                └── ✕ unmet peer typescript@^4.7: found 4.6.2
+Peer dependencies that should be installed:
+  react-is@">= 16.8.0"
+
+Done in 17.8s
